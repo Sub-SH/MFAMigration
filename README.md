@@ -6,7 +6,7 @@ Users are added to on-prem security groups, but the script could be easily modif
 ## Requirements
 The script requires a CSV file with three columns of data: id, UPN, and displayName. This CSV can be downloaded from specific Entra groups (export users) or created manually. 
 
-The script should be ran under the context of a user with privileges to add uers to on-prem AD groups. It will prompt for Entra authentication, which should be a user with at least a user or group admin role.
+The script should be ran under the context of a user with privileges to add users to on-prem AD groups. It will prompt for Entra authentication, which should be a user with at least a user or group admin role.
 
 Powershell 7 with the following modules:
 - ActiveDirectory
